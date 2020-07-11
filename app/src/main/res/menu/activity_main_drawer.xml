@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <!--<group android:id="@+id/grp1" android:checkableBehavior="single" >-->
+    <item
+        android:id="@+id/number"
+        android:icon="@drawable/countdown"
+        android:iconTint="#39af0e"
+        android:title="Numbers" />
+        <item
+            android:id="@+id/alpha"
+
+            android:iconTint="#8b0e42"
+            android:icon="@drawable/alpha"
+            android:title="Alphabates" />
+    <!--</group>-->
+
+    <!--<group android:id="@+id/grp2" android:checkableBehavior="single" >-->
+        <item
+            android:id="@+id/table"
+            android:icon="@drawable/dice"
+            android:iconTint="#241f87"
+            android:title="Tables" />
+    <item
+        android:id="@+id/mind"
+        android:icon="@drawable/mind"
+        android:iconTint="#241f87"
+        android:title="Left  Right Mind" />
+    <!--</group>-->
+    <!--<group android:id="@+id/grp3" android:checkableBehavior="single" >-->
+
+    <!--</group>-->
+
+</menu>

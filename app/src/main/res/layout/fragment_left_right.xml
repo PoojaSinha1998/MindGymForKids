@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.leftRight"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="points : "
+    android:textColor="#000"
+    android:textSize="20dp"
+    android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/MyPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dfdf"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_centerInParent="true">
+    <!-- TODO: Update blank fragment layout -->
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/circle_progress_background"
+        android:rotation="-90" />
+
+    <TextView
+        android:id="@+id/colorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+        android:text="pooja"
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    <ProgressBar
+        android:id="@+id/circle_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/circle_progress_foreground"
+        android:rotation="-90" />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginBottom="100dp">
+        <Button
+            android:id="@+id/cross"
+            android:background="@drawable/cross"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"/>
+        <Button
+            android:id="@+id/right"
+            android:background="@drawable/check_mark"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</RelativeLayout>

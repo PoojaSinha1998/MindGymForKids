@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#109D58</color>
+    <color name="colorPrimaryDark">#0D7E46</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="title_bg_color">#27b6e1</color>
+    <color name="colorMy">#F44242</color>
+    <color name="colorblue">#41366e</color>
+    <color name="switch_selected_text_color">#f70303</color>
+    <color name="switch_regular_text_color">#50fc35</color>
+    <color name="switchTrack">#ffd600</color>
+    <color name="switchTrackDisable">#90caf9</color>
+    <color name="switchTrackActive">#1565c0</color>
+    <color name="switchTrackNormal">#90caf9</color>
+    <color name="switchThumbBgActive">#1b5e20</color>
+    <color name="switchThumbActive">#ad1457</color>
+    <color name="switchThumbkNormal">#64b5f6</color>
+    <color name="colorStickyBG">#008978</color>
+    <color name="colorSticky">#074d71</color>
+    <color name="lightgray">#b3b6b7</color>
+
+
+
+
+</resources>

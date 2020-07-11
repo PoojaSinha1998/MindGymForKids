@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+
+    android:padding="2dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:background="@drawable/border_button_layout"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/l12"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp">
+            <!--<ImageView-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:src="@drawable/information_two"/>-->
+            <TextView
+
+                style="@android:style/Widget.Holo.ActionButton.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Are you sure you want to exit?"
+                android:textColor="#000"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/l12"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:background="#fff"
+
+        android:gravity="right">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp">
+
+            <Button
+                android:id="@+id/dai_no"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:background="@null"
+                android:text="NO"
+                android:textAllCaps="false"
+                android:textColor="#e11d2d"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/dai_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:background="@null"
+                android:text="YES"
+
+                android:textAllCaps="false"
+                android:textColor="#e11d2d"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

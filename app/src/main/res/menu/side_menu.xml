@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/sound"
+
+    android:actionLayout="@layout/soundonoff"
+    app:showAsAction="always"
+    tools:ignore="MenuTitle" />
+    <item android:id="@+id/rateus"
+        android:title="RateUs"
+        android:actionLayout="@layout/soundonoff"
+        />
+    <item android:id="@+id/some"
+        android:title="Something"
+        android:actionLayout="@layout/soundonoff"
+        />
+    <item android:id="@+id/some1"
+    android:title="something"
+    android:actionLayout="@layout/soundonoff"
+    />
+
+</menu>
